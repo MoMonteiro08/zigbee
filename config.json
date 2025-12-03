@@ -1,0 +1,18 @@
+{
+  "name": "Zigbee2MQTT Antigo",
+  "version": "2.6.3",
+  "slug": "zigbee2mqtt_263",
+  "description": "Addon Zigbee2MQTT - versão 2.6.3",
+  "arch": ["amd64", "armv7", "aarch64", "armhf"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "mqtt_server": "mqtt://core-mosquitto",
+    "serial_port": "/dev/ttyACM0"
+  },
+  "schema": {
+    "mqtt_server": "str",
+    "serial_port": "str"
+  },
+  "host_network": true
+}
